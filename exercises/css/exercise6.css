@@ -1,0 +1,34 @@
+body{
+    font-family:Arial;
+    background-color:#a79b8d; }
+        
+h1{
+    color:#000000;
+    background-color:#99cccc; 
+    padding: 15px; 
+    letter-spacing: 0.2em;
+    text-transform: uppercase; 
+    font-family: 'Press Start 2P', cursive; }
+h2{
+    color:#000000; 
+    background-color:#99cccc; 
+    padding: 15px; 
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-family: 'Press Start 2P', cursive; }
+           
+p {
+    padding-left: 25px;
+    padding-right: 25px; 
+    line-height: 1.6em; 
+    font-family: "Courier New", Courier, monospace; }
+
+a:visited {
+    color: #d81a60; }
+
+a:hover {
+    color: #8e24aa;
+    text-decoration: underline; }
+
+a:active {
+    color: #009788; }

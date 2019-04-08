@@ -1,0 +1,44 @@
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    color: darkmagenta; 
+    background-color: #fff;
+    padding: 20px;
+    width: 900px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-left: 20px;
+    border-top: dashed 3px black;
+    border-bottom: dashed 3px black;
+    border-left: dashed 3px black;
+    border-right: dashed 3px black;
+    }
+
+body {
+    background-color: #fff;
+    font-family: 'Reem Kufi', sans-serif;
+    }
+
+a   {
+    color: darkmagenta
+    }
+
+ul {
+    color: darkmagenta;
+    font-size: 25px;
+    }
+
+div {
+    padding: 25px;
+    width: 900px;
+    background-color: #fff;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top: dashed 3px black;
+    border-bottom: dashed 3px black;
+    border-left: dashed 3px black;
+    border-right: dashed 3px black;
+    }
