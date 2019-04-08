@@ -1,0 +1,136 @@
+body {
+    color: black;
+    background-color: #f4f4f0;  }
+
+p   {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 20px;
+    border-style: dashed; 
+    border-width: 1px;
+    border-color: black;
+    background-color: white;
+    padding: 20px;  
+    margin-top: 50px;}
+
+h1 {
+    font-family: 'Press Start 2P', cursive; }
+
+h2 {
+    font-family: 'Pathway Gothic One', sans-serif; }
+
+
+a.button:link {
+    color: black;
+    border: 1px solid #000;
+    background-color: #927fb6;
+    padding: 10px;
+    position: relative;
+    bottom: 19px;
+    border-radius: 10px;
+    text-decoration: none;  }
+
+a.button:active {
+    color: darkcyan;   }
+
+a.button:visited {
+    color: #bbb;
+    border: 1px solid #03d2e1;
+    background-color: #e0eced;  }
+
+a.button:hover {
+    color: black;
+    border: 1px solid darkcyan;
+    background-color: #bbb; }
+
+a {
+    color: #927fb6; }
+
+a.hover {
+    color: #000;    }
+
+body, html {
+      height: 100%;
+      margin: 0px;    
+      background: #fff;}
+
+header {
+    font-family: 'Pathway Gothic One', sans-serif;
+    color: #fff;
+    font-size: 50px;
+    background-color: #000;
+    padding: 20px;
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("hero.jpg"); 
+    /*this controls the "darkening" of the image behind the text*/
+    height: 40%;
+    background-position:bottom  center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:inherit; 
+    border-bottom-color: #000;}
+
+.hero-text {
+      text-align: center;
+      position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #fff; }
+
+footer {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 19px;
+    background-color: #c4b5df;
+    padding: 20px;
+    margin-top: 300px;
+    border: solid 1px;
+    text-align: center; 
+    width: 100%;
+    position:sticky;bottom:0;left:0;right:0;height:20px;
+    position:inherit;
+    bottom:0;
+    left:0;
+    }
+
+/*FIXED NAV BAR*/
+    body {margin:0;}
+
+    .navbar {
+      overflow: hidden;
+      background-color: #000;
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+
+    .navbar a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      font-family: 'Pathway Gothic One', sans-serif;
+    }
+
+    .navbar a:hover {
+      background: #ddd;
+      color: black;
+    }
+
+    .main {
+      padding: 16px;
+      margin-top: 30px;
+      height: 1500px; /* Used in this example to enable scrolling */
+    }
+
+    .logo a {
+      font-family: 'Press Start 2P', cursive; 
+      font-size: 30px;
+      color: #c4b5df;
+    }
+
+/*FIXED NAV BAR*/

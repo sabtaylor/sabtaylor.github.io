@@ -1,0 +1,136 @@
+body {
+    width: 960px;   /*sets your body content to a fixed width of 960 pixels*/
+    margin: 0 auto;    /*auto = The browser calculates a margin */
+    font-family: 'Pathway Gothic One', sans-serif;
+    }
+    
+header {
+    color: #000;
+    margin: 15px;
+    font-family: 'Pathway Gothic One', sans-serif;
+    margin-top: 45px;
+    }
+
+article {
+    background-color: #efefef;
+    padding: 20px;
+    width: 565px;
+    float: left;
+    margin-left: 15px;
+    height: 680px;
+    line-height: 1.5em; 
+    }
+
+nav {
+    background-color: #927fb6;
+    color: #fff;
+    padding: 10px;
+    width: 305px;
+    float: left;
+    margin-right: 15px;
+    height: 340px; }
+
+a.nav: {
+    color: white;
+}
+
+aside {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    width: 305px;
+    float: left;
+    margin-right: 15px;
+    height: 340px; }
+
+footer {
+    background-color: #c4b5df;
+    padding: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: solid 1px;
+    text-align: center; 
+    width: 100%;
+    }
+
+img {
+    width: 300px;
+    height: auto
+}
+
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    background-color: #000;
+    }
+
+li.menu {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    }
+
+a.menu {
+    display: block;
+    color: #fff;
+    padding: 8px 16px;
+    text-decoration: none;
+    }
+
+a.menu:hover {   /* Change the link color on hover */
+    background-color: #555;
+    color: white;
+    }
+
+a.active { /*Style the link for the active page differently */
+    background-color: #ab8ce4;
+    color: white;
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    }
+
+a {
+    color: #ab8ce4
+    }
+
+
+/*FIXED NAV BAR*/
+    body {margin:0;}
+
+    .navbar {
+      overflow: hidden;
+      background-color: #000;
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+
+    .navbar a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+
+    .navbar a:hover {
+      background: #ddd;
+      color: black;
+    }
+
+    .main {
+      padding: 16px;
+      margin-top: 30px;
+      height: 1500px; /* Used in this example to enable scrolling */
+    }
+
+    .logo a {
+      font-family: 'Press Start 2P', cursive; 
+      font-size: 30px;
+      color: #c4b5df;
+    }

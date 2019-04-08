@@ -1,0 +1,144 @@
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    background-color: #000;
+    }
+
+li.menu {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    }
+
+a.menu {
+    display: block;
+    color: #fff;
+    padding: 8px 16px;
+    text-decoration: none;
+    }
+
+a.menu:hover {   /* Change the link color on hover */
+    background-color: #555;
+    color: white;
+    }
+
+a.active { /*Style the link for the active page differently */
+    background-color: #ab8ce4;
+    color: white;
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    }
+
+a {
+    color: #ab8ce4  }
+
+h1 {
+    font-family: 'Press Start 2P', cursive; }
+
+h2 {
+    font-family: 'Pathway Gothic One', sans-serif; }
+p {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 17px;    }
+
+body, html {
+      height: 100%;
+      margin: 0px;    }
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("hero.jpg"); 
+    /*this controls the "darkening" of the image behind the text*/
+    height: 70%;
+    background-position:bottom  center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:inherit; }
+
+.hero-text {
+      text-align: center;
+      position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #fff; }
+
+
+/*NAV BUTTONS*/
+
+.box {
+    color: #ab8ce4;
+    float: left;
+    margin-right : 10px;
+    text-align: center;
+    height : 50px;  }
+
+.box img {
+  height : 200px;
+  width : 200px;    }
+
+div {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 30px;
+    padding: 11 px;   }
+
+div.menu {
+    margin-left: 210px;
+    margin-right: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;   }
+
+
+/*NAV LINKS*/
+
+button {
+    background-color: #fff;
+    border: none;
+    color: #ab8ce4  }
+
+a.menu {
+    display: block;
+    color: #fff;
+    padding: 8px 16px;
+    text-decoration: none;
+    }
+
+a.menu:hover {   /* Change the link color on hover */
+    background-color: #555;
+    color: white;
+    }
+
+a.active { /*Style the link for the active page differently */
+    background-color: #ab8ce4;
+    color: white;
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    }
+
+
+
+/*HOVER OVER BUTTONS*/
+
+* {
+  box-sizing: border-box; }
+
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+
+
+footer {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 19px;
+    background-color: #c4b5df;
+    padding: 20px;
+    margin-top: 800px;
+    border: solid 1px;
+    text-align: center; 
+    width: 100%;
+    }

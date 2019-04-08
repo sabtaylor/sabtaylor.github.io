@@ -1,0 +1,266 @@
+body {
+    margin: 45px; /*auto = The browser calculates a margin */
+    font-family: 'Pathway Gothic One', sans-serif;
+    }
+    
+article {
+    background-color: #efefef;
+    padding: 20px;
+    width: 565px;
+    float: left;
+    margin-left: 15px;
+    height: 300px;
+    line-height: 1.5em; 
+    }
+
+header {
+    font-family: 'Pathway Gothic One', sans-serif;
+    color: #fff;
+    font-size: 50px;
+    background-color: #000;
+    padding: 20px;
+}
+
+p {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 30px;    }
+
+aside {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    width: 305px;
+    float: right;
+    margin-top: 20px;
+    margin-right: -300px;
+    margin-bottom: 20px;
+    height: 340px; }
+
+footer {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 19px;
+    background-color: #c4b5df;
+    padding: 20px;
+    margin-top: 800px;
+    border: solid 1px;
+    text-align: center; 
+    width: 100%;    }
+
+img {
+    width: 300px;
+    height: auto
+}
+
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    background-color: #000;
+    }
+
+li.menu {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    }
+
+a.menu {
+    display: block;
+    color: #fff;
+    padding: 8px 16px;
+    text-decoration: none;
+    }
+
+a.menu:hover {   /* Change the link color on hover */
+    background-color: #555;
+    color: white;
+    }
+
+a.active { /*Style the link for the active page differently */
+    background-color: #ab8ce4;
+    color: white;
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    }
+
+a {
+    color: #ab8ce4
+    }
+
+
+/*CONTACT SECTION*/
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #000;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #ab8ce4;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #c4b5df;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+  margin-left: 150px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
+/*Connect With Me*/
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+  margin-left: 100px;
+  width: 60px;
+  height: 60px;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  margin-left: 100px;
+  width: 60px;
+  height: 60px;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  margin-left: 100px;
+  width: 60px;
+  height: 60px;
+}
+
+a {
+ margin-left: 100px;
+ font-family: 'Pathway Gothic One', sans-serif;
+ font-size: 19px;
+ color: #fff;
+}
+
+/*FIXED NAV BAR*/
+    body {margin:0;}
+
+    .navbar {
+      overflow: hidden;
+      background-color: #000;
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+
+    .navbar a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      font-family: 'Pathway Gothic One', sans-serif;
+    }
+
+    .navbar a:hover {
+      background: #ddd;
+      color: black;
+    }
+
+    .main {
+      padding: 16px;
+      margin-top: 30px;
+      height: 1500px; /* Used in this example to enable scrolling */
+    }
+
+    .logo a {
+      font-family: 'Press Start 2P', cursive; 
+      font-size: 30px;
+      color: #c4b5df;
+    }
+
+/*FIXED NAV BAR*/
+
+body, html {
+      height: 100%;
+      margin: 0px;    
+      background: #fff;}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("hero.jpg"); 
+    /*this controls the "darkening" of the image behind the text*/
+    height: 40%;
+    background-position:bottom  center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:inherit; 
+    border-bottom-color: #000;}
+
+.hero-text {
+      text-align: center;
+      position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #fff; }
+
+h1 {
+    font-family: 'Press Start 2P', cursive; }
+
+h2 {
+    font-family: 'Pathway Gothic One', sans-serif; }

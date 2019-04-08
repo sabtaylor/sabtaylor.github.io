@@ -1,0 +1,175 @@
+h1 {
+    font-family: 'Press Start 2P', cursive; }
+
+h2 {
+    font-family: 'Pathway Gothic One', sans-serif; }
+p {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 17px;    }
+
+body, html {
+      height: 100%;
+      margin: 0px;    
+      background: #fff;}
+
+header {
+    font-family: 'Pathway Gothic One', sans-serif;
+    color: #fff;
+    font-size: 50px;
+    background-color: #000;
+    padding: 20px;
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("hero.jpg"); 
+    /*this controls the "darkening" of the image behind the text*/
+    height: 40%;
+    background-position:bottom  center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:inherit; 
+    border-bottom-color: #000;}
+
+.hero-text {
+      text-align: center;
+      position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #fff; }
+
+footer {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 19px;
+    background-color: #c4b5df;
+    padding: 20px;
+    margin-top: 700px;
+    border: solid 1px;
+    text-align: center; 
+    width: 100%;
+    position:sticky;bottom:0;left:0;right:0;height:20px;
+    position:fixed;
+    bottom:0;
+    left:0;
+    }
+
+/*FIXED NAV BAR*/
+    body {margin:0;}
+
+    .navbar {
+      overflow: hidden;
+      background-color: #000;
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+
+    .navbar a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      font-family: 'Pathway Gothic One', sans-serif;
+    }
+
+    .navbar a:hover {
+      background: #ddd;
+      color: black;
+    }
+
+    .main {
+      padding: 16px;
+      margin-top: 30px;
+      height: 1500px; /* Used in this example to enable scrolling */
+    }
+
+    .logo a {
+      font-family: 'Press Start 2P', cursive; 
+      font-size: 30px;
+      color: #c4b5df;
+    }
+
+/*FIXED NAV BAR*/
+
+
+/*BACKGROUND*/
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("about%20bg%20(2).png"); 
+
+  /* Full height */
+  height: 100%; 
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: inherit;
+}
+
+/*BACKGROUND*/
+
+
+/*ABOUT ME PHOTO*/
+img {
+    float: left;
+    width: 500px;
+    height: auto;
+    margin-left: 200px;
+    margin-top: 50px;
+    padding: 35px;
+    background-color: #927fb6;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px; }
+/*ABOUT ME PHOTO*/
+
+aside {
+    background-color: #000;
+    color: #fff;
+    padding: 50px;
+    width: 320px;
+    float: left;
+    margin-top: 300px;
+    margin-left: 50px;
+    margin-right: 10px;
+    height: 360px; 
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;}
+
+a.menu {
+    display: block;
+    color: #fff;
+    padding: 8px 16px;
+    text-decoration: none;
+    }
+
+a.menu:hover {   /* Change the link color on hover */
+    background-color: #555;
+    color: white;
+    }
+
+a.active { /*Style the link for the active page differently */
+    background-color: #ab8ce4;
+    color: white;
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    }
+
+a {
+    color: #ab8ce4
+    }

@@ -1,0 +1,120 @@
+body {
+    margin: 0 auto;    /*auto = The browser calculates a margin */
+    font-family: 'Reem Kufi', sans-serif;
+    padding: 20px;  }
+
+
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    background-color: #000;
+    }
+
+li.menu {
+    display: block;
+    color: #000;
+    text-decoration: none;
+    }
+
+h1 {
+    font-family: 'Pathway Gothic One', sans-serif; 
+    margin-top: 100px; }
+
+h2 {
+    font-family: 'Pathway Gothic One', sans-serif; }
+p {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 17px;    }
+
+
+li {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 17px;    }
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;  
+  width: 50%;
+  padding: 15px;
+  height: 300px;    }
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;  }
+
+.row {
+    padding: 2px;
+}
+
+hr {
+    color: #000 }
+
+div {
+    padding: 15px;  }
+
+#title {
+    color: white;   }
+
+
+/*FIXED NAV BAR*/
+    body {margin:0;}
+
+    .navbar {
+      overflow: hidden;
+      background-color: #000;
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+
+    .navbar a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      font-family: 'Pathway Gothic One', sans-serif;
+    }
+
+    .navbar a:hover {
+      background: #ddd;
+      color: black;
+    }
+
+    .main {
+      padding: 16px;
+      margin-top: 30px;
+      height: 1500px; /* Used in this example to enable scrolling */
+    }
+
+    .logo a {
+      font-family: 'Press Start 2P', cursive; 
+      font-size: 30px;
+      color: #c4b5df;
+    }
+
+/*FIXED NAV BAR*/
+
+footer {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 19px;
+    background-color: #c4b5df;
+    padding: 20px;
+    margin-top: 300px;
+    border: solid 1px;
+    text-align: center; 
+    width: 100%;
+    position:sticky;bottom:0;left:0;right:0;height:20px;
+    position:inherit;
+    bottom:0;
+    left:0;
+    }
